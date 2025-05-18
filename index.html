@@ -12,8 +12,10 @@
         <input type="number" name="userId" id="UserId" placeholder="Enter User Id">
         <button type="submit">Search</button>
     </form>  
-    <div id="userInfo"></div>
+    <div id="loading_div1" class="loading_div"><div class="loading_circle"></div><p>Getting Info....</p></div>
+    <div id="userInfo" style="display: none;"></div>
     <button style="display: none;" id="showPostBtn">Show Post</button>
+    <div id="loading_div2" class="loading_div"><div class="loading_circle"></div><p>Getting Posts....</p></div>
     <div id="userPosts"></div>
     <script src="app.js"></script>
     
